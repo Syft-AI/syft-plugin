@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1181px" height="1158px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1181 1158"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="833.217" y1="1007.73" x2="347.783" y2="150.152">
+   <stop offset="0" style="stop-opacity:1; stop-color:#006AF6"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#06DDF9"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M1129 129l-329 0 -60 -103c-9,-17 -26,-26 -45,-26 -19,0 -35,9 -45,26l-269 466 0 0 -92 -159c-8,-14 -8,-30 0,-45l92 -159 -329 0c-19,0 -35,10 -45,26 -9,17 -9,36 0,52l425 736c14,24 20,48 20,75l0 88c0,28 23,52 52,52l173 0c29,0 52,-24 52,-52l0 -88c0,-27 6,-51 20,-75l425 -736c9,-16 9,-35 0,-52 -10,-16 -26,-26 -45,-26zm-329 0l92 159c8,15 8,31 0,45l-207 358c-13,23 -19,46 -19,73l0 323c0,4 -4,8 -7,8l-137 0c-3,0 -7,-4 -7,-8l0 -324c0,-26 -6,-49 -19,-72l-10 -18 314 -544z"/>
+ </g>
+</svg>

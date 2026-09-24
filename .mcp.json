@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "syft": {
+      "type": "http",
+      "url": "https://api.syftai.com/mcp"
+    }
+  }
+}

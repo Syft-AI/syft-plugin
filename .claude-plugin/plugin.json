@@ -1,0 +1,21 @@
+{
+  "name": "syft",
+  "version": "0.1.0",
+  "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
+  "author": {
+    "name": "Syft",
+    "email": "support@syftai.com",
+    "url": "https://syftai.com"
+  },
+  "homepage": "https://syftai.com",
+  "repository": "https://github.com/Syft-AI/syft-plugin",
+  "license": "MIT",
+  "keywords": [
+    "syft",
+    "sales",
+    "prospecting",
+    "account-prioritization",
+    "account-research",
+    "sales-intelligence"
+  ]
+}
