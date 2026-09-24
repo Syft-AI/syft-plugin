@@ -4,11 +4,38 @@ Syft tells you which accounts to go after and why, with evidence that is checked
 
 Requires a Syft account. [Request access](mailto:support@syftai.com?subject=Syft%20access%20request).
 
-## Install
+## Set up in Claude
 
-### Claude Desktop and Cowork
+Two steps in the Claude desktop app. The connector gives Claude access to your Syft data. The plugin adds guided workflows on top of it.
 
-Open **Customize**, then **Plugins**. Select **Add**, then **Add marketplace**, paste `Syft-AI/syft-plugin`, and select **Sync**. Find Syft in the list and install it.
+### 1. Add the Syft connector
+
+1. Open **Customize** in the sidebar, then **Connectors**.
+2. Find **Syft** and select **Connect**. If Syft is not listed, select **Add custom connector** and enter `https://api.syftai.com/mcp`.
+3. Sign in with your Syft account when the sign-in window opens.
+
+### 2. Add the Syft plugin
+
+1. Open **Customize**, then **Plugins**.
+2. Select **Add**, then **Add marketplace**.
+3. Paste `Syft-AI/syft-plugin` in the URL field and select **Sync**.
+4. Find **Syft** in the list and select **+** to install it.
+
+### 3. Check the connection
+
+In a new conversation, open the **+** menu, choose **Connectors**, make sure Syft is on, and ask: "Which Syft workspace and role am I connected as?"
+
+## Set up in Grok Bot
+
+Grok Bot installs plugins from the Cursor marketplace.
+
+1. Open plugins and search for **Syft**.
+2. Select **Install**.
+3. When prompted, sign in with your Syft account.
+
+## Other tools
+
+Syft is a standard MCP server at `https://api.syftai.com/mcp`, and the plugin works in any host that reads Claude plugin marketplaces.
 
 ### Claude Code
 
@@ -17,13 +44,15 @@ claude plugin marketplace add Syft-AI/syft-plugin
 claude plugin install syft@syft-plugins
 ```
 
+Restart Claude Code, run `/mcp`, and authenticate `plugin:syft:syft`. Then use `/syft:prioritize-accounts` or `/syft:syft-guide`.
+
 ### Cursor
 
-Install Syft from the Cursor marketplace, or load a checkout:
+1. Open **Customize** in the sidebar and find **Syft** in the marketplace.
+2. Select **Install** and choose a project or user scope.
+3. Open MCP settings, select Syft, and sign in with your Syft account.
 
-```sh
-cursor-agent --plugin-dir /absolute/path/to/syft-plugin
-```
+Or load it from a checkout: `cursor-agent --plugin-dir /path/to/syft-plugin`.
 
 ### Codex
 
@@ -32,9 +61,18 @@ codex plugin marketplace add Syft-AI/syft-plugin
 codex plugin add syft@syft-plugins
 ```
 
-## Connect
+Then open Codex's MCP settings, select Syft, and authenticate.
 
-Restart your host session after installation. Open its MCP controls, select Syft, and choose Connect or Authenticate to complete OAuth with your Syft account. In Claude Code, run `/mcp` and authenticate `plugin:syft:syft`. Installation alone does not sign you in. All hosts use `https://api.syftai.com/mcp`; no API key belongs in this package.
+### MCP only
+
+To use the tools without the plugin, add the server directly. Sign-in is OAuth; there is no API key.
+
+```sh
+claude mcp add --transport http syft https://api.syftai.com/mcp
+codex mcp add syft --url https://api.syftai.com/mcp
+```
+
+In Cursor, open **Settings** › **MCP** and add a server named `syft` with that URL.
 
 ## Try it
 
