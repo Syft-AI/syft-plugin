@@ -1,0 +1,37 @@
+{
+  "name": "syft",
+  "version": "0.1.0",
+  "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
+  "author": {
+    "name": "Syft",
+    "email": "support@syftai.com",
+    "url": "https://syftai.com"
+  },
+  "homepage": "https://syftai.com",
+  "repository": "https://github.com/Syft-AI/syft-plugin",
+  "license": "MIT",
+  "keywords": [
+    "syft",
+    "sales",
+    "prospecting",
+    "account-prioritization",
+    "account-research",
+    "sales-intelligence"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Syft",
+    "shortDescription": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
+    "longDescription": "Syft tells you which accounts to prioritize and why. It finds accounts with an active problem your products solve, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. Works whether you have a territory of hundreds of accounts or no list yet, and can look up people at any account.\n\nAsk Syft which accounts to prioritize, why a specific account is a priority right now, or who to contact there. You can use Syft in Claude, Cursor, and Codex. Requires a Syft account.",
+    "developerName": "Syft",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://syftai.com",
+    "privacyPolicyURL": "https://www.syftai.com/legal/privacy",
+    "termsOfServiceURL": "https://www.syftai.com/legal/terms",
+    "logo": "./assets/logo.svg"
+  }
+}
