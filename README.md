@@ -1,32 +1,25 @@
 # Syft
 
-Syft tells you which accounts to go after and why, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. This plugin connects Claude, Cursor, and Codex to Syft and adds a skill for prioritizing accounts.
+Syft tells you which accounts to go after and why, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. This plugin connects Claude, Cursor, and Codex to Syft and adds two skills: prioritizing accounts and a guide to Syft workflows.
 
 Requires a Syft account. [Request access](mailto:support@syftai.com?subject=Syft%20access%20request).
 
 ## Install
 
-This package supports custom installation before catalog availability. The public GitHub repository is not available yet; the release commands below are for after publication, not a claim of a marketplace listing.
+### Claude Desktop and Cowork
+
+Open **Customize**, then **Plugins**. Select **Add**, then **Add marketplace**, paste `Syft-AI/syft-plugin`, and select **Sync**. Find Syft in the list and install it.
 
 ### Claude Code
-
-Release installation, once `Syft-AI/syft-plugin` is published:
 
 ```sh
 claude plugin marketplace add Syft-AI/syft-plugin
 claude plugin install syft@syft-plugins
 ```
 
-Local checkout installation, available now (replace `/absolute/path/to/syft-plugin`):
-
-```sh
-claude plugin marketplace add /absolute/path/to/syft-plugin
-claude plugin install syft@syft-plugins
-```
-
 ### Cursor
 
-Load the local checkout in Cursor Agent:
+Install Syft from the Cursor marketplace, or load a checkout:
 
 ```sh
 cursor-agent --plugin-dir /absolute/path/to/syft-plugin
@@ -34,14 +27,10 @@ cursor-agent --plugin-dir /absolute/path/to/syft-plugin
 
 ### Codex
 
-Install from the local checkout with Codex CLI:
-
 ```sh
-codex plugin marketplace add /absolute/path/to/syft-plugin
+codex plugin marketplace add Syft-AI/syft-plugin
 codex plugin add syft@syft-plugins
 ```
-
-After publication, the Codex marketplace command can use `Syft-AI/syft-plugin` instead of the local path.
 
 ## Connect
 
