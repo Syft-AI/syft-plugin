@@ -1,6 +1,6 @@
 {
   "name": "syft",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
   "author": {
     "name": "Syft",
@@ -17,5 +17,7 @@
     "account-prioritization",
     "account-research",
     "sales-intelligence"
-  ]
+  ],
+  "icon": "assets/logo.svg",
+  "privacyPolicyUrl": "https://www.syftai.com/legal/privacy"
 }

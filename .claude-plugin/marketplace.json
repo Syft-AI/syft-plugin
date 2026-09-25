@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Syft plugin: priority accounts with verifiable evidence.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "syft",
       "source": "./",
       "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "sales"
     }
   ]
