@@ -10,10 +10,26 @@
   "plugins": [
     {
       "name": "syft",
-      "source": "./",
+      "displayName": "Syft AI",
       "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
-      "version": "0.1.1",
-      "category": "sales"
+      "author": {
+        "name": "Syft AI",
+        "email": "support@syftai.com",
+        "url": "https://syftai.com"
+      },
+      "category": "sales",
+      "source": "./",
+      "homepage": "https://www.syftai.com/docs/mcp",
+      "repository": "https://github.com/Syft-AI/syft-plugin",
+      "license": "MIT",
+      "keywords": [
+        "syft",
+        "sales",
+        "prospecting",
+        "account-prioritization",
+        "account-research",
+        "sales-intelligence"
+      ]
     }
   ]
 }
