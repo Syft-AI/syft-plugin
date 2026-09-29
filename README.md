@@ -1,4 +1,4 @@
-# Syft
+# Syft AI
 
 Syft tells you which accounts to go after and why, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. This plugin connects Claude, Cursor, and Codex to Syft and adds two skills: prioritizing accounts and a guide to Syft workflows.
 
