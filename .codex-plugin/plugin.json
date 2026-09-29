@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
   "author": {
-    "name": "Syft",
+    "name": "Syft AI",
     "email": "support@syftai.com",
     "url": "https://syftai.com"
   },
@@ -23,7 +23,7 @@
     "displayName": "Syft AI",
     "shortDescription": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
     "longDescription": "Syft tells you which accounts to prioritize and why. It finds accounts with an active problem your products solve, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. Works whether you have a territory of hundreds of accounts or no list yet, and can look up people at any account.\n\nAsk Syft which accounts to prioritize, why a specific account is a priority right now, or who to contact there. You can use Syft in Claude, Cursor, and Codex. Requires a Syft account.",
-    "developerName": "Syft",
+    "developerName": "Syft AI",
     "category": "Productivity",
     "capabilities": [
       "Read",
