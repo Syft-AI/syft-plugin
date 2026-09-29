@@ -1,24 +1,35 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "syft-plugins",
+  "description": "Syft AI plugin: priority accounts with evidence you can verify.",
   "owner": {
     "name": "Syft AI",
-    "email": "support@syftai.com"
-  },
-  "metadata": {
-    "description": "Syft plugin: priority accounts with verifiable evidence.",
-    "version": "0.1.2"
+    "email": "support@syftai.com",
+    "url": "https://syftai.com"
   },
   "plugins": [
     {
       "name": "syft",
       "displayName": "Syft AI",
-      "source": "./",
       "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
-      "version": "0.1.2",
-      "category": "sales",
       "author": {
-        "name": "Syft AI"
-      }
+        "name": "Syft AI",
+        "email": "support@syftai.com",
+        "url": "https://syftai.com"
+      },
+      "category": "sales",
+      "source": "./",
+      "homepage": "https://www.syftai.com/docs/mcp",
+      "repository": "https://github.com/Syft-AI/syft-plugin",
+      "license": "MIT",
+      "keywords": [
+        "syft",
+        "sales",
+        "prospecting",
+        "account-prioritization",
+        "account-research",
+        "sales-intelligence"
+      ]
     }
   ]
 }
