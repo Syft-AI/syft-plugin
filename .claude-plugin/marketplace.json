@@ -1,20 +1,24 @@
 {
   "name": "syft-plugins",
   "owner": {
-    "name": "Syft",
+    "name": "Syft AI",
     "email": "support@syftai.com"
   },
   "metadata": {
     "description": "Syft plugin: priority accounts with verifiable evidence.",
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "syft",
+      "displayName": "Syft AI",
       "source": "./",
       "description": "Know which accounts to go after and why. Syft finds your priority accounts with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it.",
-      "version": "0.1.1",
-      "category": "sales"
+      "version": "0.1.2",
+      "category": "sales",
+      "author": {
+        "name": "Syft AI"
+      }
     }
   ]
 }
