@@ -21,5 +21,6 @@
   ],
   "icon": "assets/logo.svg",
   "privacyPolicyUrl": "https://www.syftai.com/legal/privacy",
-  "supportUrl": "mailto:support@syftai.com"
+  "supportUrl": "mailto:support@syftai.com",
+  "termsOfServiceUrl": "https://www.syftai.com/legal/terms"
 }
