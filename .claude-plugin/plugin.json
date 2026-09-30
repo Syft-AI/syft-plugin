@@ -20,5 +20,6 @@
     "sales-intelligence"
   ],
   "icon": "assets/logo.svg",
-  "privacyPolicyUrl": "https://www.syftai.com/legal/privacy"
+  "privacyPolicyUrl": "https://www.syftai.com/legal/privacy",
+  "supportUrl": "mailto:support@syftai.com"
 }
