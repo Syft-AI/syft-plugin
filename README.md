@@ -103,4 +103,8 @@ Reps see their territory. Managers and admins see the whole workspace, including
 
 ## Support and policies
 
-[Support](mailto:support@syftai.com) · [Website](https://syftai.com) · [Privacy](https://www.syftai.com/legal/privacy) · [Terms](https://www.syftai.com/legal/terms) · [MIT license](LICENSE)
+- Documentation: https://www.syftai.com/docs/mcp
+- Support: support@syftai.com
+- Privacy policy: https://www.syftai.com/legal/privacy
+- Terms of service: https://www.syftai.com/legal/terms
+- License: [MIT](LICENSE)
