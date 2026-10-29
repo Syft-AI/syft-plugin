@@ -1,6 +1,6 @@
 # Syft AI
 
-Syft tells you which accounts to go after and why, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. This plugin connects Claude, Cursor, and Codex to Syft and adds two skills: prioritizing accounts and a guide to Syft workflows.
+Syft tells you which accounts to go after and why, with evidence that is checked for accuracy, filtered for relevance, and cited so you can verify it. This plugin connects Claude, Cursor, and Codex to Syft and adds three skills: prioritizing accounts, writing a value-focused email for a priority account, and a guide to Syft workflows.
 
 Requires a Syft account. [Request access](mailto:support@syftai.com?subject=Syft%20access%20request).
 
@@ -44,7 +44,7 @@ claude plugin marketplace add Syft-AI/syft-plugin
 claude plugin install syft@syft-plugins
 ```
 
-Restart Claude Code, run `/mcp`, and authenticate `plugin:syft:syft`. Then use `/syft:prioritize-accounts` or `/syft:syft-guide`.
+Restart Claude Code, run `/mcp`, and authenticate `plugin:syft:syft`. Then use `/syft:prioritize-accounts`, `/syft:value-email`, or `/syft:syft-guide`.
 
 ### Cursor
 
@@ -85,6 +85,7 @@ In Cursor, open **Settings** › **MCP** and add a server named `syft` with that
 | Skill | What it does |
 |---|---|
 | `prioritize-accounts` | Ranked list of priority accounts with the reason for each, then next actions |
+| `value-email` | A cold email for one priority account: an observation from Syft's evidence, the challenge it implies, how you solve it, a customer story, and a soft ask |
 | `syft-guide` | How to use Syft, which workflow fits your situation, and what to connect |
 
 ## Tools
@@ -97,6 +98,7 @@ In Cursor, open **Settings** › **MCP** and add a server named `syft` with that
 | `search_accounts` | Look up a company by name or domain |
 | `search_contacts` | People at one company, up to 25 |
 | `enrich_contacts` | Email, LinkedIn, and work history for 1 to 5 contacts. Spends credits; requires confirmation |
+| `get_workspace_setup` | Your workspace's products, customer stories, and qualification signals. Workspace admins only |
 | `whoami` | The connected user, workspace, and role |
 
 Reps see their territory. Managers and admins see the whole workspace, including accounts Syft found that nobody is tracking yet.
